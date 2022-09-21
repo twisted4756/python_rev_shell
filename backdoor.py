@@ -7,8 +7,8 @@ import os
 import base64
 import threading
 
-HOST_IP = "10.0.0.202"
-PORT = 4444
+HOST_IP = ""
+PORT = ""
 
 class RunThread(threading.Thread):
 	def run(self):
