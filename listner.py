@@ -4,8 +4,8 @@ import socket
 import json
 import base64
 
-HOST_IP = "10.0.0.202"
-PORT = 4444
+HOST_IP = ""
+PORT = ""
 
 listner = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 listner.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)
